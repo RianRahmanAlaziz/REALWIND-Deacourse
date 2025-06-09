@@ -14,8 +14,6 @@
     --text-color-grey: #B5B2B6;
 
     --my-width-nav: calc(100% - 32px);
-
-
 }
 
 :root,
@@ -30,6 +28,7 @@
 }
 
 .line-clamp-3 {
+    line-clamp: 3;
     -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
