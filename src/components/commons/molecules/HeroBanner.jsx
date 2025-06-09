@@ -4,7 +4,7 @@ function HeroBanner() {
     return (
         <section className='relative h-[460px] w-full rounded-b-4xl'>
             <img src="/images/bg-1.jpg" className='h-full w-full rounded-4xl object-cover shadow-md' />
-            <div className='absolute bg-(--bg-primary-cray) h-32 w-32 rounded-full' />
+            <div className='absolute bg-(--bg-primary-cray) h-32 w-32 rounded-full -bottom-16 -translate-x-1/2 transform left-1/2' />
         </section>
     )
 }
