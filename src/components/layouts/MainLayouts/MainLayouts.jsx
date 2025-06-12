@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../../commons/molecules/Navbar";
+import "../MainLayouts/MainLayouts.css"
 
 function MainLayouts() {
   return (

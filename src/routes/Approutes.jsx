@@ -1,5 +1,9 @@
 import MainLayouts from "../components/layouts/MainLayouts/MainLayouts";
 import HomePage from "../pages/HomePage";
+import AboutPage from "../pages/AboutPage";
+import SkillsPage from "../pages/SkillsPage";
+import NotFound from "../pages/NotFound";
+
 
 const AppRoutes = [
   {
@@ -20,14 +24,20 @@ const AppRoutes = [
         key: "about",
         name: "about",
         path: "/about",
-        Component: () => <p>about</p>,
+        Component: AboutPage,
+      },
+      {
+        key: "skills",
+        name: "skills",
+        path: "/skills",
+        Component: SkillsPage,
       },
     ],
   },
   {
     name: "404",
     path: "*",
-    Component: () => <p>This Content 404</p>,
+    Component: NotFound,
     key: "404",
   },
 ];
